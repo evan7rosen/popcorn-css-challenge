@@ -3,3 +3,79 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+/* Nav-Bar CSS */
+
+.nav-bar{
+    background-color: #FFDBAA;
+    color: #553100;
+    margin: auto;
+    padding: 50px 50px;
+    line-height: 50px;
+    height: 50px;
+}
+
+.nav-title{
+    float: left;
+    font-size: 2em;
+
+}
+
+.nav-button{
+    background-color: #805215;
+    color: white;
+    height: 40px;
+    font-size: 1em;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Main Page CSS */
+
+.content{
+    background-color: #D4A76A;
+    color: black;
+    padding: 25px;
+}
+
+.page-button{
+    background-color: #805215;
+    color: white;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+.column{
+    background-color: white;
+    box-shadow: 2px 2px 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+    justify-content: space-evenly;
+    flex-basis: 20%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.column-2{
+    background-color: white;
+    box-shadow: 2px 2px 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+    justify-content: space-evenly;
+    flex-basis: 20%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 25px;
+  }
