@@ -11,7 +11,7 @@ Main background - #D4A76A*/
     color: #553100;
     margin: auto;
     padding: 50px 50px;
-    line-height: 50px;
+    line-height: 10px;
     height: 50px;
 }
 
@@ -28,7 +28,7 @@ Main background - #D4A76A*/
     font-size: 1em;
     float: right;
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
 }
 
 /* Main Page CSS */
